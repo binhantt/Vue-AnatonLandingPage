@@ -1,2 +1,2 @@
-import {Navbardata , NavbarLogo ,NavbarNg} from "./Navbardata";
-export {Navbardata ,NavbarLogo ,NavbarNg}
+import {Navbardata , NavbarLogo ,NavbarNg,Product_demo_home_functiondata,Product_demo_home_detaildata } from "./Navbardata";
+export {Navbardata ,NavbarLogo ,NavbarNg ,Product_demo_home_functiondata,Product_demo_home_detaildata }

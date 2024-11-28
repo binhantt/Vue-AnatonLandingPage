@@ -29,6 +29,7 @@
     </div>
 
 </template>
+
 <script>
 import { Navbardata ,NavbarLogo } from "@/config";
 

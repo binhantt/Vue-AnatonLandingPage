@@ -1,10 +1,7 @@
 
 <template>
-  <nav class="w-full flex flex-col" v-for="(item, index) in bg" :key="index">
-    <div
-      class="h-[100vh] bg-bottom"
-      :style="{ backgroundImage: `url(${item.bgurl1})` }"
-    >
+  <nav class="w-full flex flex-col bg-no-repeat	"  :style="{ backgroundImage: `url(${bg[0].bgurl1})` }">
+ 
       <div class="w-full flex justify-center py-6">
         <div class="w-[80%]">
           <Navbar />
@@ -24,34 +21,19 @@
           </div>
         </div>
       </div>
-      <div class="h-[50vh] w-full flex justify-center items-center relative">
-        <img :src="item.bgurl2" width="60%" class="drop-shadow-xl	">
-        <div class="flex flex-col absolute right-[8rem] gap-10">
-           <div class="flex gap-3 items-center">
-            <i class="fa-regular fa-video bg-blue-500 px-6 py-5 rounded-full text-3xl text-white border-white border drop-shadow-xl"></i>
-            <div>
-                <p>
-                    Calling Features</p>
-                <p class="font-medium text-xl">Live Video Call</p>
-            </div>
-           </div>
-           <div class="flex gap-3 items-center">
-            <i class="fa-regular fa-database bg-black px-6 py-5 rounded-full text-3xl text-white border-white border drop-shadow-xl"></i>
-            <div>
-                <p>
-                    Database</p>
-                <p class="font-medium text-xl">Unlimited Database</p>
-            </div>
-           </div>
-        </div>
-    </div>
-    </div>
+      <div class="flex flex-col">
+        <Product_demo_home />
+      <Product_demo_home_function class="pb-[40vh]"/>
+      <Product_demo_home_detail/>
+      </div>
   </nav>
+  
 </template>
 
 <script>
 import { NavbarNg } from "@config";
 import { Navbar } from "@layouts";
+import { Product_demo_home ,Product_demo_home_function,Product_demo_home_detail} from "@product_demo";
 export default {
   data() {
     return {
@@ -61,6 +43,9 @@ export default {
   name: "HomeView",
   components: {
     Navbar,
+    Product_demo_home,
+    Product_demo_home_function,
+    Product_demo_home_detail
   },
 };
 </script>
