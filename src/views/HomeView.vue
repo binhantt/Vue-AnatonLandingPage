@@ -23,8 +23,9 @@
       </div>
       <div class="flex flex-col">
         <Product_demo_home />
-      <Product_demo_home_function class="pb-[40vh]"/>
+      <Product_demo_home_function class="pb-[30vh]"/>
       <Product_demo_home_detail/>
+      <Product_demo_home_edittor/>
       </div>
   </nav>
   
@@ -33,7 +34,8 @@
 <script>
 import { NavbarNg } from "@config";
 import { Navbar } from "@layouts";
-import { Product_demo_home ,Product_demo_home_function,Product_demo_home_detail} from "@product_demo";
+import { Product_demo_home ,Product_demo_home_function,Product_demo_home_detail ,Product_demo_home_edittor} from "@product_demo";
+
 export default {
   data() {
     return {
@@ -45,7 +47,8 @@ export default {
     Navbar,
     Product_demo_home,
     Product_demo_home_function,
-    Product_demo_home_detail
+    Product_demo_home_detail, 
+    Product_demo_home_edittor
   },
 };
 </script>

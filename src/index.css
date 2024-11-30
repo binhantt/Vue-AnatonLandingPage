@@ -3,6 +3,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.Product_demo_home_detail-ul::marker{
+.Product_demo_home_detail-ul li::marker{
   color: blue;
+}
+.Product_demo_home_detail-i{
+  transform: rotate(45deg);
 }

@@ -1,3 +1,15 @@
+const Navbar_edittor_data= [
+    {
+        "img1" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/il-1.png",
+        "img2" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/d8.png",
+        "img3" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/d7.png",
+        "img4" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/d4.png",
+        "img5" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/d5.png",
+        "img6" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/d9.png",
+        "img7" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/d11.png",
+        "img8" : "Vue-AnatonLandingPage/src/assets/editc.png"
+    }
+]
 const NavbarNg = [
     {
         "bgurl1" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/6-2.png", 
@@ -11,6 +23,7 @@ const Product_demo_home_detaildata = [
         'img1' : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/6.png" , 
         'img2' : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/7.png" ,  
         'img3' :"https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/8.png",
+        'img4' : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/7.png ", 
 
     }
 ]
@@ -108,4 +121,4 @@ const Navbardata = [
         "name": "Contact"
     }
 ]
-export {Navbardata , NavbarLogo ,  NavbarNg, Product_demo_home_functiondata ,Product_demo_home_detaildata}
+export {Navbardata , NavbarLogo ,  NavbarNg, Product_demo_home_functiondata ,Product_demo_home_detaildata , Navbar_edittor_data}
