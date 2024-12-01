@@ -7,7 +7,7 @@ const Navbar_edittor_data= [
         "img5" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/d5.png",
         "img6" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/d9.png",
         "img7" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/d11.png",
-        "img8" : "Vue-AnatonLandingPage/src/assets/editc.png"
+        "img8" : "https://i.ibb.co/CtFLCYv/editc.png"
     }
 ]
 const NavbarNg = [

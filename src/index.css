@@ -9,3 +9,25 @@
 .Product_demo_home_detail-i{
   transform: rotate(45deg);
 }
+.Pr_edittor li::before {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  content: "";
+  position: absolute;
+  left: 490px;
+  border-radius: 100%;
+}
+
+.Pr_edittor li::after {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  background: yellow;
+  z-index: 1;
+  left: 495px; /* Adjusted for centering */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Perfect vertical centering */
+  border-radius: 50%;
+}
