@@ -1,6 +1,6 @@
 <template>
   <div v-for="(ele,index ) in img " :key="index" class="flex justify-center items-center ">
-    <div class="w-full justify-center flex bg-no-repeat	bg-right	h-[90vh]" :style="{ backgroundImage: `url(${ele.bg})` ,}">
+    <div class="w-full justify-center flex bg-no-repeat	bg-right	py-20" :style="{ backgroundImage: `url(${ele.bg})` ,}">
         <div class="w-[80%] flex  "  >
          
       <div class="grid grid-cols-2 mb-4 ">
@@ -12,21 +12,21 @@
             <div class="text-start text-gray-500">
                 Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
             </div>
-            <ul class="Product-ul-register ">
+            <ul class="Product-ul-register flex flex-col gap-3">
                 <li>
-                    <i class="far fa-check "></i>
+                   
                     Ticketing system
                 </li>
                 <li>
-                    <i class="far fa-check "></i>
+                   
                     Automated ticket distribution
                 </li>
                 <li>
-                    <i class="far fa-check "></i>
+                    
                     Social media integration
                 </li>
                 <li>
-                    <i class="far fa-check "></i>
+                  
                     Call and voice mail recordings
                 </li>
             </ul>
@@ -54,7 +54,7 @@
 
           </div>
         </Form1>
-        <img :src="ele.img1" class="absolute bottom-[-100px] right-[-90px]" width="80">
+        <img :src="ele.img1" class="absolute bottom-[-90px] right-[-90px]" width="80">
         </div>
       </div>
     </div>

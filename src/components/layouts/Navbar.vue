@@ -1,3 +1,4 @@
+
 <template>
   <div class="flex justify-between items-center text-white font-semibold	">
     <div class="" v-for="(item, index) in logo" :key="index"> 
