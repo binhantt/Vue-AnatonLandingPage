@@ -1,23 +1,27 @@
 <template>
-   <div class="flex justify-center items-center relative">
+   <div class="flex justify-center items-center py-10">
     <div  class="flex w-[80%]" v-for="(val , index) in img " :key="index">
        <div class="w-1/2  relative">
-        <img :src="val.img8" width="900">
+        <img :src="val.img8" width="1000">
        </div>
        <div class="flex flex-col justify-center items-center">
-           <div class="w-[60%] flex flex-col gap-5">
-            <div class=" text-4xl">
+           <div class="w-[50%] flex flex-col gap-5">
+            <div class=" text-4xl font-semibold	">
                 <h1>An editor designed
                     for contracts.</h1>
             </div>
-            <ul class="flex flex-col gap-3 Pr_edittor ">
-                <li>
-                    <p>Admin Dashboard</p>
-                    <p>Seeing rather her you not esteem men settle genius excuse. Deal say over you age from comparison new.</p>
+            <ul class="flex flex-col gap-3  ">
+                <li class="relative">
+                   <div class="Pr_edittor">
+                    <p class="font-semibold	">Admin Dashboard</p>
+                    <p class="text-gray-500">Seeing rather her you not esteem men settle genius excuse. Deal say over you age from comparison new.</p>
+                   </div>
                 </li>
-                <li>
-                    <p>Admin Dashboard</p>
-                    <p>Seeing rather her you not esteem men settle genius excuse. Deal say over you age from comparison new.</p>
+                <li class="relative">
+                   <div  class="Pr_edittor">
+                    <p class="font-semibold	">Cloud Hosting</p>
+                    <p class="text-gray-500">Esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.</p>
+                   </div>
                 </li>
             </ul>
            </div>

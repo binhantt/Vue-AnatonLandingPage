@@ -1,2 +1,2 @@
-import {Navbardata , NavbarLogo ,NavbarNg,Product_demo_home_functiondata,Product_demo_home_detaildata ,Navbar_edittor_data} from "./Navbardata";
-export {Navbardata ,NavbarLogo ,NavbarNg ,Product_demo_home_functiondata,Product_demo_home_detaildata ,Navbar_edittor_data}
+import {Navbardata , NavbarLogo ,NavbarNg,Product_demo_home_functiondata,Product_demo_home_detaildata ,Navbar_edittor_data ,Navbar_re_data} from "./Navbardata";
+export {Navbardata ,NavbarLogo ,NavbarNg ,Product_demo_home_functiondata,Product_demo_home_detaildata ,Navbar_edittor_data ,Navbar_re_data}

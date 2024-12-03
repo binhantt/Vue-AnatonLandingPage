@@ -9,25 +9,38 @@
 .Product_demo_home_detail-i{
   transform: rotate(45deg);
 }
-.Pr_edittor li::before {
+.Pr_edittor::before {
   width: 20px;
   height: 20px;
-  background: #000;
+  background: #5153ff;
   content: "";
   position: absolute;
-  left: 490px;
+  left: -30px;
+  margin-top: 3px;
   border-radius: 100%;
 }
 
-.Pr_edittor li::after {
+.Pr_edittor::after {
   position: absolute;
   content: "";
   height: 10px;
   width: 10px;
-  background: yellow;
+  background:#efefff;
   z-index: 1;
-  left: 495px; /* Adjusted for centering */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Perfect vertical centering */
+  left: -25px;
+  top: 13px;
+  transform: translateY(-50%);
   border-radius: 50%;
+}
+.Product-register-Home-spam::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  top: 50px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-image: url("https://wpriverthemes.com/anaton/wp-content/themes/anaton/img/shape/29.png");
+  background-size: contain;
 }

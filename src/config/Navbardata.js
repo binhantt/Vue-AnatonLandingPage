@@ -1,3 +1,10 @@
+const Navbar_re_data= [
+    {
+        "bg" :"https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/31.png" , 
+        "img1" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/2-2.png", 
+        'img2' : 'https://wpriverthemes.com/anaton/wp-content/themes/anaton/img/shape/29.png'
+    }
+]
 const Navbar_edittor_data= [
     {
         "img1" : "https://wpriverthemes.com/anaton/wp-content/uploads/2023/05/il-1.png",
@@ -121,4 +128,4 @@ const Navbardata = [
         "name": "Contact"
     }
 ]
-export {Navbardata , NavbarLogo ,  NavbarNg, Product_demo_home_functiondata ,Product_demo_home_detaildata , Navbar_edittor_data}
+export {Navbardata , NavbarLogo ,  NavbarNg, Product_demo_home_functiondata ,Product_demo_home_detaildata , Navbar_edittor_data ,Navbar_re_data}
