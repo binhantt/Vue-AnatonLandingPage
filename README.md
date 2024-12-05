@@ -1,2 +1,1 @@
-# Vue-AnatonLandingPage
-Page
+"# Vue-AnatonLandingPage" 
