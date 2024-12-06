@@ -2,7 +2,9 @@
   <form :action="URL">
     <h1 :class="class_h1">{{ title }}</h1>
     <slot></slot>
-    <button :id="idname" :class="classname">{{ button }}</button>
+    <div :class="class_div">
+      <button :id="idname" :class="classname">{{ button }}</button>
+    </div>
   </form>
 </template>
   
@@ -10,6 +12,10 @@
 export default {
   props: {
     class_h1: {
+      type: String,
+      default: "",
+    },
+    class_div: {
       type: String,
       default: "",
     },

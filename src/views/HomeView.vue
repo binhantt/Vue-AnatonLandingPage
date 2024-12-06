@@ -1,5 +1,8 @@
 
   <template>
+<body>
+  
+</body> 
   <nav
     class="w-full flex flex-col bg-no-repeat " 
     :style="{ backgroundImage: `url(${bg[0].bgurl1})` }"

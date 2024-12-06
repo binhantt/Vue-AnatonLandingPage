@@ -24,9 +24,11 @@
           </div>
         </div>
       </div>
-      <div class=" border border-gray-300 py-4 px-6 rounded-md">
-        <button>Get Consultant</button>
+     <div class="relative">
+      <div class=" border border-gray-300 py-4 px-6 rounded-md nabar_hover_home ">
+        <button class="z-2">Get Consultant</button>
       </div>
+     </div>
     </div>
     <div class="md:hidden flex bg-white py-6 px-4 gap-10 items-center">
       <div class="text-4xl">

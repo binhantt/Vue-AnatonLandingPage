@@ -52,7 +52,7 @@
               :title="'Go Unlmited'"
               :class_h1="'text-blue-500 font-semibold'"
               :button="'Premium Plan'"
-              :classname="'bg-blue-500 text-white py-2 px-1  rounded-md w-[60%]'"
+              :classname="'bg-blue-500 hover-button text-white py-2 px-1  rounded-md w-[60%]'"
             >
               <div class="font-semibold md:flex hidden ">
                 Unlock all features

@@ -17,7 +17,7 @@
             class="border rounded-md p-2 flex-1 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button
-            class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+            class="bg-blue-600 text-white px-4 py-2 rounded-md nabar_hover_home_fooret "
           >
             Subscribe
           </button>
@@ -69,6 +69,7 @@ export default {
     return {
       logo: NavbarLogo,
       data: Footerdatamenu, 
+
     };
   },
 };
