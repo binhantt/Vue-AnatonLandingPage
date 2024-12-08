@@ -1,0 +1,3 @@
+import { Product_demo_home_event,Navbardata , NavbarLogo ,NavbarNg,Product_demo_home_functiondata,Product_demo_home_detaildata ,Navbar_edittor_data ,Navbar_re_data,Product_demo_home_f,Product_demo_home_Unlockd_data} from "./Navbardata";
+import {Footerdatamenu} from "./footer"
+export {Footerdatamenu,Product_demo_home_event,Navbardata ,NavbarLogo ,NavbarNg ,Product_demo_home_functiondata,Product_demo_home_detaildata ,Navbar_edittor_data ,Navbar_re_data,Product_demo_home_f,Product_demo_home_Unlockd_data}
