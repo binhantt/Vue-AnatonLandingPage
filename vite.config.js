@@ -15,5 +15,5 @@ export default defineConfig({
     }
   },
   plugins: [vue()],
-  base:'/Vue-AnatonLandingPage/',
+   base:'/Vue-AnatonLandingPage/',
 })
